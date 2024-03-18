@@ -1,0 +1,43 @@
+.hero-container{
+    padding: 1rem;
+}
+
+.home-hero {
+  height: 18rem;
+  display: grid;
+  place-content: center;
+}
+
+.home-hero > img {
+  filter: drop-shadow(-4px 2px 40px  #efeb0fb7 );
+  width: 40rem;
+  opacity: 0;
+  animation: fadeIn 1s linear 3.8s 1 forwards;
+}
+
+
+@keyframes fadeIn {
+  to{
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .home-hero > img {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .hero-container{
+    padding: 0;
+}
+
+.home-hero {
+  height: 16rem;
+}
+
+  .home-hero > img {
+    width: 22rem;
+  }
+}

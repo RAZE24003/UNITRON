@@ -1,0 +1,397 @@
+.footer {
+  width: 100%;
+  font-family: "Uni";
+  background: #10182F;
+  border-radius: 6px;
+}
+
+.footer .footer-row {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.footer-row .footer-col h4 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+.footer-unitron > ul{
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-unitron > ul > li{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.footer-info{
+  justify-self: center;
+}
+
+.footer-col .links {
+  margin-top: 20px;
+}
+
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+.footer-col .links li a:hover {
+  color: #fff;
+}
+
+.footer-col p {
+  margin: 20px 0;
+  color: #bfbfbf;
+  font-size: 0.75rem;
+}
+
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-col input {
+  height: 35px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7489C6 ;
+  caret-color: #fff;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+  color: #ccc;
+}
+
+ .footer-col form button {
+  background: #fff;
+  color: #000;
+  padding: 5px 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.2s ease;
+  font-size: 0.7rem;
+}
+
+.footer-col form button:hover {
+  background: #cecccc;
+}
+
+.footer-col .icons {
+  display: flex;
+  margin-top: 10px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footer-col .icons i {
+  color: #afb6c7;
+}
+
+.footer-col .icons i:hover  {
+  color: #fff;
+}
+
+.contact > h4{
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+}
+
+.contact>form
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.contact > form > input, .contact > form > textarea{
+  width: 100%;
+  border: 1px solid #7489C6;
+  border-radius: 0.3rem;
+  outline: none;
+  background-color: transparent;
+  padding: 0.3rem 0.5rem;
+  color: #ccc;
+}
+
+.contact > form > input{
+  padding: 0.4rem 0.5rem;
+}
+
+.contact > form > input::placeholder, .contact > form > textarea::placeholder{
+  color: #ccc;
+}
+
+.contact > form > textarea{
+  resize: none;
+}
+
+.contact button{
+  font-weight: 500;
+  color: #000;
+  border-radius: 0.4rem;
+  letter-spacing: 1px;
+  background: #fff;
+}
+
+.footer-copyright{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  gap: 1.3rem;
+  font-family: "Uni";
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.footer-copyright > span{
+  position: relative;
+}
+
+.footer-copyright >  span::before{
+  content: "\00a9";
+  position: absolute;
+  left: -15px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer .footer-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .footer .footer-row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .footer-info{
+    justify-self: left;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .footer-row .footer-col h4{
+    font-size: 0.8rem;
+  }
+
+  .footer-row .footer-col ul span{
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: rgb(209, 206, 206);
+  }
+
+  .contact h4{
+    font-size: 0.8rem;
+  }
+}
+
+
+
+.aaa, .fff {
+  background-color: #fff;
+  border: 1px solid #bc2a8d;
+  padding: 1rem 2rem;
+  position: relative;
+  width: 8.8em;
+  height: 2.5em;
+  transition: 0.5s;
+  font-size: 13px;
+  border-radius: 0.4em;
+}
+
+.fff{
+  border: 1px solid #0163E0;
+}
+
+.aaa p, .fff p {
+  position: absolute;
+  top: 0.95em;
+  left: 1.2em;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+  color: #bc2a8d;
+  font-size: 0.65rem;
+}
+
+.fff p{
+  color: #0163E0;
+  left: 1.5em
+}
+
+.aaa svg, .fff svg {
+  position: absolute;
+  top: 0.7em;
+  right: 0.5em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  height: 1em;
+  fill: #fff
+}
+
+.fff svg{
+  right: 0;
+}
+
+.aaa:hover p, .fff:hover p {
+  left: 0.6em;
+  color: #fff
+}
+
+.aaa:hover svg, .fff:hover svg {
+  opacity: 1;
+}
+
+.aaa:hover {
+  background-color: #bc2a8d;
+}
+
+.fff:hover{
+  background-color: #0163E0;
+}
+
+
+
+.aab {
+  height: 2.5em;
+  background: transparent;
+  position: relative;
+  padding: 0px 9px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #0163E0;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: #0163E0;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+.aab svg {
+  fill: #0163E0;
+  height: 20px;
+  width: 20px;
+}
+
+.aab span {
+  margin: 10px;
+}
+
+.aab::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+.aab:hover {
+  color: #fff;
+  border: 1px solid #0370ff;
+}
+
+.aab:hover svg {
+  fill: currentColor;
+}
+
+.aab:hover::before {
+  box-shadow: inset 0 0 0 10em #0163E0;
+}
+
+.aac {
+  font-family: inherit;
+  font-size: 10px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 0.8em;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.aac span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.aac svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aac:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.aac:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.aac:hover span {
+  transform: translateX(5em);
+}
+
+.aac:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+

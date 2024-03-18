@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Uni';
+  src: url('../Assets/F.otf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  scroll-behavior: smooth;
+  scroll-padding: 5rem;
+}
+
+body {
+  color: #fff;
+  margin: 0;
+  font-family: "Uni", sans-serif;
+  background: #000000;
+}
+
+a{
+  font-family: "Uni", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+svg{
+  display: block;
+}
+
+button{
+  background: none;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-family: "Uni", sans-serif;
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img{
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
