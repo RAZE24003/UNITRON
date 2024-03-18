@@ -181,3 +181,7 @@ img
     color: rgb(234, 238, 9);
     font-size: 30px;
 }
+.card .content h3
+{
+    font-size: 0.95rem;
+}
