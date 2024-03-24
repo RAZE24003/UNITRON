@@ -31,7 +31,7 @@ function loadClicks(){
             if(eventdescription[0].id === 'carnival'){
                 registerLink.innerHTML = `Offline Registration
                 <span class="modal-btn-span"></span>`
-                registerLink.href = '';
+                registerLink.href = '../Assets/EventPage/OFFLINE.pdf';
             }
             else{
                 registerLink.innerHTML = `Register

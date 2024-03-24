@@ -226,7 +226,7 @@ const eventDescData = [
         id: 'carnival',
         img: '../Assets/EventPage/Carnival.png',
         desc: 'Experience the ultimate fusion of tech and fun at our carnival event! From string hockey to real-life scribble, balloon cup tower to human ludo, there is excitement at every turn. Do not miss out on the adrenaline-packed games and unforgettable moments!',
-        link: '',
+        link: '../Assets/EventPage/OFFLINE.pdf',
         pdf: '../Assets/EventPage/Carnival.pdf'
     },
 
@@ -314,7 +314,7 @@ const eventDescData = [
         id: 'uno',
         img: '../Assets/EventPage/Uno.png',
         desc: 'Welcome to "UNO" at our tech fest! Experience the excitement of the classic card game in our tournament. All are welcome to join, so gather your friends and prepare for a thrilling UNO showdown!',
-        link: '',
+        link: '../Assets/EventPage/OFFLINE.pdf',
         pdf: '../Assets/EventPage/uno.pdf'
     },
 
@@ -330,7 +330,7 @@ const eventDescData = [
         id: '8ballpool',
         img: '../Assets/EventPage/8ballpool.png',
         desc: 'Dive into the "8 Ball Pool" tournament at our tech fest! Compete against fellow gamers in thrilling matches, showcasing your precision and strategy. Aim, shoot, and pocket your way to victory in this exciting gaming event!',
-        link: '',
+        link: '../Assets/EventPage/OFFLINE.pdf',
         pdf: '../Assets/EventPage/8_Ball_pool.pdf'
     },
 
@@ -340,7 +340,7 @@ const eventDescData = [
         id: 'competitiveprogramming',
         img: '../Assets/EventPage/Cp.png',
         desc: 'Competitive programming is a thrilling sport where participants solve complex algorithmic problems within a limited timeframe. In this high-pressure environment, programmers demonstrate their coding prowess by designing efficient solutions to a variety of challenges, ranging from simple puzzles to intricate computational tasks.',
-        link: '',
+        link: '../Assets/EventPage/ComingSoon.pdf',
         pdf: '../Assets/EventPage/ComingSoon.pdf'
 
     },
@@ -357,7 +357,7 @@ const eventDescData = [
         id: 'hackthebox',
         img: '../Assets/EventPage/HackTheBox.png',
         desc: 'Hack the Box is an exhilarating cybersecurity platform where participants engage in real-world challenges to enhance their hacking skills. It offers a diverse array of virtual machines and challenges, each presenting unique scenarios to solve.Join us at our tech fest to explore the thrilling world of "Hack the Box" and unleash your potential in the realm of cybersecurity.',
-        link: '',
+        link: '../Assets/EventPage/ComingSoon.pdf',
         pdf: '../Assets/EventPage/ComingSoon.pdf'
     },
 
@@ -365,7 +365,7 @@ const eventDescData = [
         id: 'frontend',
         img: '../Assets/EventPage/FrontEnd.png',
         desc: 'Whether you are a seasoned coder or just starting out, this challenge offers an exciting opportunity to demonstrate your front-end skills. Get ready to design, code, and impress the judges with your innovative solutions by joining our Front-End Challenge. Dive into the world of web development and showcase your creativity and coding prowess.',
-        link: '',
+        link: '../Assets/EventPage/ComingSoon.pdf',
         pdf: '../Assets/EventPage/frontend.pdf'
     },
 
