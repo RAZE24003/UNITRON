@@ -260,7 +260,7 @@ const eventDescData = [
         img: '../Assets/EventPage/BGMITDM.png',
         desc: 'Join the battlegrounds in our "BGMI" (Battlegrounds Mobile India) competition! Test your skills in intense battles against other players, strategize your moves, and strive to be the last one standing in this adrenaline-fueled gaming experience.',
         link: 'https://forms.gle/ZKYsUCCuEpcakpDd6',
-        pdf: '../Assets/EventPage/BGMITD.pdf'
+        pdf: '../Assets/EventPage/BGMI.pdf'
     },
 
     {
@@ -291,7 +291,7 @@ const eventDescData = [
         img: '../Assets/EventPage/Pes.png',
         desc: 'Experience the excitement of virtual football in our "PES" tournament! Compete against fellow gamers, control your favorite teams, and score epic goals in this thrilling gaming event. Join us for fast-paced action and intense competition!',
         link: 'https://forms.gle/r4Gzd93J4dqzsKGdA',
-        pdf: '../Assets/EventPage/PES.pdf'
+        pdf: '../Assets/EventPage/Pesf.pdf'
     },
 
     {
@@ -307,7 +307,7 @@ const eventDescData = [
         img: '../Assets/EventPage/Fifa24.png',
         desc: 'Experience the excitement of soccer in our "FIFA" event at the tech fest! Featuring tournaments and 1v1 competitions, showcase your skills, craft strategic plays, and aim for victory against tough opponents. Join us for intense gaming action and the thrill of soccer!',
         link: 'https://forms.gle/KTg2zaPioXaCBdX48',
-        pdf: '../Assets/EventPage/fifamobile.pdf'
+        pdf: '../Assets/EventPage/FIFAA.pdf'
     },
 
     {
