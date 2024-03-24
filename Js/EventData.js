@@ -167,7 +167,7 @@ const eventDescData = [
         img: '../Assets/EventPage/Robowar.png',
         desc: 'Robo War is an exhilarating competition held where teams pit their custom-built robots against each other in intense battles. Participants design and program their robots to outmaneuver, outsmart, and ultimately defeat opponents within a designated arena.',
         link: 'https://forms.gle/ksc8BgVzF1HuF9CT7',
-        pdf: '../Assets/EventPage/RoboWar_RuleBook.pdf'
+        pdf: '../Assets/EventPage/RoboWars.pdf'
 
     },
 
