@@ -36,13 +36,13 @@ const nonTechEventData = [
     {
         id: 'techquiz',
         title: 'Tech Quiz',
-        img: '../Assets/EventPage/TechQuiz.png'
+        img: '../Assets/EventPage/TechQuiznew.png'
     },
 
     {
         id: 'snapthegap',
         title: 'Snap The Gap',
-        img: '../Assets/EventPage/SnapTheGap.png'
+        img: '../Assets/EventPage/STG.png'
     },
 
     {
@@ -70,7 +70,12 @@ const gamingEventData = [
     {
         id: 'bgmi',
         title: 'BGMI',
-        img: '../Assets/EventPage/Bgmi.png'
+        img: '../Assets/EventPage/BGMIBR.png'
+    },
+    {
+        id: 'bgmiTDM',
+        title: 'BGMI',
+        img: '../Assets/EventPage/BGMITDM.png'
     },
 
     {
@@ -82,7 +87,12 @@ const gamingEventData = [
     {
         id: 'freefire',
         title: 'Free Fire',
-        img: '../Assets/EventPage/FreeFire.png'
+        img: '../Assets/EventPage/FREEFIREBR.png'
+    },
+    {
+        id: 'freefireTDM',
+        title: 'Free Fire',
+        img: '../Assets/EventPage/FREEFIRETDM.png'
     },
 
     {
@@ -166,7 +176,7 @@ const eventDescData = [
         img: '../Assets/EventPage/Roborace.png',
         desc: 'Death Race is an exhilarating event featured in tech fests, where autonomous robotic vehicles compete against each other in a thrilling race. These robots are designed and programmed by teams of enthusiasts, engineers, and programmers.',
         link: 'https://forms.gle/sc2bL59hw4PmXbTg8',
-        pdf: '../Assets/EventPage/DeathRace_RuleBook.pdf'
+        pdf: '../Assets/EventPage/DeathRace.pdf'
     },
 
     {
@@ -191,24 +201,24 @@ const eventDescData = [
         id: 'treasurehunt',
         img: '../Assets/EventPage/TreasureHunt.png',
         desc: 'A treasure hunt is a recreational activity where participants follow a series of clues or instructions to locate a hidden treasure or prize. It often involves exploring various locations and solving puzzles to uncover the next clue until the final treasure is found.',
-        link: '',
+        link: 'https://forms.gle/B2keTQ83ixbMaF72A',
         pdf: '../Assets/EventPage/Treasure_Hunt.pdf'
 
     },
 
     {
         id: 'techquiz',
-        img: '../Assets/EventPage/TechQuiz.png',
+        img: '../Assets/EventPage/TechQuiznew.png',
         desc: 'Get ready for the "Tech Quiz" at our tech fest! Challenge your knowledge across diverse tech topics in a thrilling competition. Gather your team and brace yourselves for an exciting intellectual showdown!',
-        link: '',
+        link: 'https://forms.gle/VkPtEJHEUW3rsfDg8',
         pdf: '../Assets/EventPage/Tech_Quiz.pdf'
     },
 
     {
         id: 'snapthegap',
-        img: '../Assets/EventPage/SnapTheGap.png',
+        img: '../Assets/EventPage/STG.png',
         desc: 'A popsicle bridge making challenges participants to construct bridges using only popsicle sticks and glue. Teams or individuals design and build their bridges to support as much weight as possible while meeting specific size and weight constraints.',
-        link: '',
+        link: 'https://forms.gle/1wzeSZCc6r8zSoUA7',
         pdf: '../Assets/EventPage/spanthegap.pdf'
     },
 
@@ -224,7 +234,7 @@ const eventDescData = [
         id: 'snapit',
         img: '../Assets/EventPage/SnapIt.png',
         desc: 'Snap It at our tech fest invites you to showcase your photography skills! Explore the festival grounds and capture the essence of technology through your lens. Judges will evaluate your creativity and composition. Do not miss out on this unique photographic adventure!',
-        link: '',
+        link: 'https://forms.gle/jiwAUGfViFGe254W9',
         pdf: '../Assets/EventPage/Snap_It.pdf'
     },
 
@@ -232,7 +242,7 @@ const eventDescData = [
         id: 'canvas',
         img: '../Assets/EventPage/Canvas.png',
         desc: 'Canvas at our tech fest is a celebration of creativity! Join us for an online journey where participants showcase their stunning artwork. Experience innovation meeting artistry in this exciting event!',
-        link: '',
+        link: 'https://forms.gle/hrMjN1hQt8w9wBN39',
         pdf: '../Assets/EventPage/Canvas.pdf'
     },
 
@@ -240,50 +250,64 @@ const eventDescData = [
 
     {
         id: 'bgmi',
-        img: '../Assets/EventPage/Bgmi.png',
+        img: '../Assets/EventPage/BGMIBR.png',
         desc: 'Join the battlegrounds in our "BGMI" (Battlegrounds Mobile India) competition! Test your skills in intense battles against other players, strategize your moves, and strive to be the last one standing in this adrenaline-fueled gaming experience.',
-        link: '',
-        pdf: '../Assets/EventPage/BGMI_RULEBOOK.pdf'
+        link: 'https://forms.gle/o6sWoYKX1jVMfVv59',
+        pdf: '../Assets/EventPage/BGMIBR.pdf'
+    },
+    {
+        id: 'bgmiTDM',
+        img: '../Assets/EventPage/BGMITDM.png',
+        desc: 'Join the battlegrounds in our "BGMI" (Battlegrounds Mobile India) competition! Test your skills in intense battles against other players, strategize your moves, and strive to be the last one standing in this adrenaline-fueled gaming experience.',
+        link: 'https://forms.gle/ZKYsUCCuEpcakpDd6',
+        pdf: '../Assets/EventPage/BGMITD.pdf'
     },
 
     {
         id: 'valorant',
         img: '../Assets/EventPage/Valorant.png',
         desc: 'Join the "Valorant" tournament at our tech fest! Showcase your skills in this action-packed tactical shooter competition. Gather your team, strategize, and aim for victory in intense battles!',
-        link: '',
+        link: 'https://forms.gle/j7b4k9YGt7V2hmzz8',
         pdf: '../Assets/EventPage/Valorant.pdf'
     },
 
     {
         id: 'freefire',
-        img: '../Assets/EventPage/FreeFire.png',
+        img: '../Assets/EventPage/FREEFIREBR.png',
         desc: 'Enter the world of survival gaming with our "Free Fire" tournament! Engage in fast-paced battles, outmaneuver your opponents, and claim victory as the ultimate survivor. Join us for intense action and thrilling competitions in this popular mobile game event!',
-        link: '',
+        link: 'https://forms.gle/6Gt5uASv3fQ8YQA99',
         pdf: '../Assets/EventPage/FREEFIRE_RULEBOOK.pdf'
+    },
+    {
+        id: 'freefireTDM',
+        img: '../Assets/EventPage/FREEFIRETDM.png',
+        desc: 'Enter the world of survival gaming with our "Free Fire" tournament! Engage in fast-paced battles, outmaneuver your opponents, and claim victory as the ultimate survivor. Join us for intense action and thrilling competitions in this popular mobile game event!',
+        link: 'https://forms.gle/geE1pxxxUjFEWC8w7',
+        pdf: '../Assets/EventPage/FFTDM.pdf'
     },
 
     {
         id: 'pesmobile',
         img: '../Assets/EventPage/Pes.png',
         desc: 'Experience the excitement of virtual football in our "PES" tournament! Compete against fellow gamers, control your favorite teams, and score epic goals in this thrilling gaming event. Join us for fast-paced action and intense competition!',
-        link: '',
-        pdf: '../Assets/EventPage/PES_RULEBOOK.pdf'
+        link: 'https://forms.gle/r4Gzd93J4dqzsKGdA',
+        pdf: '../Assets/EventPage/PES.pdf'
     },
 
     {
         id: 'codm',
         img: '../Assets/EventPage/CallOfDuty.png',
         desc: 'Step onto the battlefield in our "Call of Duty" (Mobile) tournament! Engage in intense multiplayer matches, strategize with your team, and aim for victory in this adrenaline-pumping gaming event. Join the action, showcase your skills, and dominate the competition in this thrilling gaming experience!',
-        link: '',
-        pdf: '../Assets/EventPage/CODM_TDM.pdf'
+        link: 'https://forms.gle/WdDkmtc9t1oLdkEz9',
+        pdf: '../Assets/EventPage/CODMTDM.pdf'
     },
 
     {
         id: 'fifa',
         img: '../Assets/EventPage/Fifa24.png',
         desc: 'Experience the excitement of soccer in our "FIFA" event at the tech fest! Featuring tournaments and 1v1 competitions, showcase your skills, craft strategic plays, and aim for victory against tough opponents. Join us for intense gaming action and the thrill of soccer!',
-        link: '',
-        pdf: '../Assets/EventPage/FIFA_RULEBOOK.pdf'
+        link: 'https://forms.gle/KTg2zaPioXaCBdX48',
+        pdf: '../Assets/EventPage/fifamobile.pdf'
     },
 
     {
@@ -298,8 +322,8 @@ const eventDescData = [
         id: 'nfs',
         img: '../Assets/EventPage/NFS.png',
         desc: 'Rev up your engines for our "Need for Speed" (NFS) competition! Race against opponents in high-speed pursuits, maneuver through challenging tracks, and strive to cross the finish line first in this heart-pounding gaming event. Join us for fast-paced action and intense competition in the world of street racing!',
-        link: '',
-        pdf: '../Assets/EventPage/NFS.pdf'
+        link: 'https://forms.gle/fGmRgVLt391e5iaa7',
+        pdf: '../Assets/EventPage/nfsnew.pdf'
     },
 
     {
@@ -325,8 +349,8 @@ const eventDescData = [
         id: 'pyml',
         img: '../Assets/EventPage/PyML.png',
         desc: 'Enter the Py-ML War at our Tech Fest! Witness the battle of algorithms as Python and Machine Learning enthusiasts compete to push the boundaries of AI. From neural networks to data wrangling, this showdown promises excitement, innovation, and the ultimate quest for supremacy in the realm of code. Do not miss out on this thrilling clash of minds at our Tech Fest!',
-        link: '',
-        pdf: '../Assets/EventPage/ComingSoon.pdf'
+        link: 'https://forms.gle/vp6WYb67nEGT6Nik7',
+        pdf: '../Assets/EventPage/pyml.pdf'
     },
 
     {
@@ -342,7 +366,7 @@ const eventDescData = [
         img: '../Assets/EventPage/FrontEnd.png',
         desc: 'Whether you are a seasoned coder or just starting out, this challenge offers an exciting opportunity to demonstrate your front-end skills. Get ready to design, code, and impress the judges with your innovative solutions by joining our Front-End Challenge. Dive into the world of web development and showcase your creativity and coding prowess.',
         link: '',
-        pdf: '../Assets/EventPage/ComingSoon.pdf'
+        pdf: '../Assets/EventPage/frontend.pdf'
     },
 
 
