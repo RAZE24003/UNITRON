@@ -365,7 +365,7 @@ const eventDescData = [
         id: 'frontend',
         img: '../Assets/EventPage/FrontEnd.png',
         desc: 'Whether you are a seasoned coder or just starting out, this challenge offers an exciting opportunity to demonstrate your front-end skills. Get ready to design, code, and impress the judges with your innovative solutions by joining our Front-End Challenge. Dive into the world of web development and showcase your creativity and coding prowess.',
-        link: '../Assets/EventPage/ComingSoon.pdf',
+        link: 'https://forms.gle/NtrzD99WuN4RLkAm8',
         pdf: '../Assets/EventPage/frontend.pdf'
     },
 
