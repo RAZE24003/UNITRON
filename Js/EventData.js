@@ -174,7 +174,7 @@ const eventDescData = [
     {
         id: 'roborace',
         img: '../Assets/EventPage/Roborace.png',
-        desc: 'Death Race is an exhilarating event featured in tech fests, where autonomous robotic vehicles compete against each other in a thrilling race. These robots are designed and programmed by teams of enthusiasts, engineers, and programmers.',
+        desc: 'Death Race is an exhilarating event featured in tech fests, where manual robotic vehicles compete against each other in a thrilling race. These robots are designed by teams of enthusiasts and engineers.',
         link: 'https://forms.gle/sc2bL59hw4PmXbTg8',
         pdf: '../Assets/EventPage/DeathRace.pdf'
     },
