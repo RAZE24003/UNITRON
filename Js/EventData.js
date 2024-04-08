@@ -291,7 +291,7 @@ const eventDescData = [
         img: '../Assets/EventPage/Pes.png',
         desc: 'Experience the excitement of virtual football in our "PES" tournament! Compete against fellow gamers, control your favorite teams, and score epic goals in this thrilling gaming event. Join us for fast-paced action and intense competition!',
         link: 'https://forms.gle/r4Gzd93J4dqzsKGdA',
-        pdf: '../Assets/EventPage/Pesf.pdf'
+        pdf: '../Assets/EventPage/PES .pdf'
     },
 
     {
