@@ -357,7 +357,7 @@ const eventDescData = [
         id: 'hackthebox',
         img: '../Assets/EventPage/HackTheBox.png',
         desc: 'Hack the Box is an exhilarating cybersecurity platform where participants engage in real-world challenges to enhance their hacking skills. It offers a diverse array of virtual machines and challenges, each presenting unique scenarios to solve.Join us at our tech fest to explore the thrilling world of "Hack the Box" and unleash your potential in the realm of cybersecurity.',
-        link: '../Assets/EventPage/ComingSoon.pdf',
+        link: 'https://forms.gle/ng6KA55PHc6WyMQNA',
         pdf: '../Assets/EventPage/HTB.pdf'
     },
 
