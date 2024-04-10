@@ -340,7 +340,7 @@ const eventDescData = [
         id: 'competitiveprogramming',
         img: '../Assets/EventPage/Cp.png',
         desc: 'Competitive programming is a thrilling sport where participants solve complex algorithmic problems within a limited timeframe. In this high-pressure environment, programmers demonstrate their coding prowess by designing efficient solutions to a variety of challenges, ranging from simple puzzles to intricate computational tasks.',
-        link: '../Assets/EventPage/ComingSoon.pdf',
+        link: 'https://forms.gle/QYtrE5EJtsBtxMhH8',
         pdf: '../Assets/EventPage/CP.pdf'
 
     },
